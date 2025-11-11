@@ -16,8 +16,7 @@ CORS(app)
 # --- Configuration ---
 # IMPORTANT: Your actual Gemini API Key is directly integrated here.
 # This approach is simpler but less secure for production environments.
-GEMINI_API_KEY = 'AIzaSyCi0-I-pxDluQpTetG4lOHGCQKdgD3eOHI' # Your actual API key directly here
-
+GEMINI_API_KEY = 'Your_GEMINI_API_KEY'
 # Initialize the genai client with your API key
 client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -105,3 +104,4 @@ if __name__ == '__main__':
 
     # Run the Flask app on host 0.0.0.0 to make it accessible from other devices on the network
     app.run(host='0.0.0.0', port=5000, debug=True) # debug=True is for development, set to False in production
+
