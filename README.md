@@ -11,5 +11,4 @@ pip: Python's package installer, which typically comes bundled with Python,Googl
 
 1. Clone the Repository
 2. Install Dependencies(pip install Flask Flask-Cors google-genai)
-3. API key is directly included in the code
-4. use python app.py to run the code
+3. use python app.py to run the code
